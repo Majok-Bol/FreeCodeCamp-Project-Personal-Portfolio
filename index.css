@@ -21,7 +21,7 @@ li {
 .nav-link-visited {
   color: white;
 }
-#welcome-section {
+.welcome-section {
   background-color: #2d2e31;
   width: 100%;
   height: 100vh;
@@ -54,14 +54,235 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
-  gap:5rem;
-
+  gap: 5rem;
 }
 .image-text {
   max-width: 45%;
   max-height: 25%;
 }
-.image{
-    width: 100%;
-    height:100%;
+.image {
+  width: 100%;
+  height: 100%;
 }
+.section2 {
+  background-color: #45567d;
+  margin-top: -2.57rem;
+  padding-bottom: 10rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#button {
+  position: relative;
+  top: 5rem;
+  left: 50%;
+  right: 20%;
+  height:2rem;
+  width:6rem;
+  background-color: red;
+  text-align:center;
+  color:white;
+  padding-top:0.5rem;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+.section4-paragraph {
+  font-size: 2.5rem;
+  margin-top: -3.5rem;
+}
+.head4 {
+  font-size: 4rem;
+}
+.section4-head {
+  text-align: center;
+  color: #f0f0f0;
+}
+#icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+span {
+  margin-left: 0.65rem;
+}
+.section4 {
+  background-color: #303841;
+  margin-top: -4.5rem;
+  height:15rem;
+
+}
+.section4-divider {
+  background-color: #be3144;
+  height: 0.15rem;
+  margin-top:1.5rem;
+}
+
+.fa-free-code-camp {
+  display: block;
+  float: right;
+  margin-top:1.5rem;
+  margin-left:1rem;
+}
+.copyrights {
+  display:flex;
+  float:right;
+  padding-right:1.5rem;
+
+}
+footer{
+  background-color: #303841;
+  height:5rem;
+  color:white;
+
+}
+#profile-link{
+  font-size:1.5rem;
+  text-decoration: none;
+  color:white;
+}
+@media  (max-width: 768px){
+  #header {
+    position: fixed;
+    top: 0;
+    background-color: #be3144;
+    width: 100%;
+  }
+  #list-items {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    float: right;
+    color: white;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  .nav-link-visited {
+    color: white;
+  }
+  .welcome-section {
+    background-color: #2d2e31;
+    width: 100%;
+    height: 100vh;
+  }
+  #welcome-section {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 30%;
+    bottom: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .paragraph {
+    color: #752b33;
+    font-size: 4rem;
+    font-style: italic;
+  }
+  .h1 {
+    color: #f0f0f0;
+    font-size: 3rem;
+  }
+  .header2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  #project-tile {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5rem;
+  }
+  .image-text {
+    max-width: 45%;
+    max-height: 25%;
+    margin-left: 4rem;
+
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  .section2 {
+    background-color: #45567d;
+    margin-top: -2.57rem;
+    padding-bottom: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #button {
+    position: relative;
+    top: 5rem;
+    left: 40%;
+    right: 20%;
+    height:2rem;
+    width:6rem;
+    background-color: red;
+    text-align:center;
+    color:white;
+    padding-top:0.5rem;
+  }
+  body {
+    overflow-x: hidden;
+    margin: 0;
+  }
+  .section4-paragraph {
+    font-size: 1.85rem;
+    margin-top: -2.5rem;
+  }
+  .head4 {
+    font-size: 2rem;
+  }
+  .section4-head {
+    text-align: center;
+    color: #f0f0f0;
+  }
+  #icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5rem;
+    align-items: center;
+    flex-direction: column;
+  }
+  span {
+    margin-left: 0.65rem;
+  }
+  .section4 {
+    background-color: #303841;
+    margin-top: -4.5rem;
+    height:15rem;
+  
+  }
+  .section4-divider {
+    background-color: #be3144;
+    height: 0.8rem;
+    margin-top:1rem;
+  }
+  
+  .fa-free-code-camp {
+    display: block;
+    float: right;
+    margin-top:1.5rem;
+    margin-left:0.8rem;
+  }
+  .copyrights {
+    display:flex;
+    float:right;
+    padding-right:1.5rem;
+  
+  }
+  footer{
+    background-color: #303841;
+    height:2.5rem;
+    color:white;
+  
+  }
+}
+
